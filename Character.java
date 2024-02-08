@@ -1,6 +1,7 @@
 public class Character{
 
-    private CharType charType;
+    private String charType;
+    private ActionStrategy actionStrategy;
 
     public Character(CharType charType){
         this.charType = charType;
