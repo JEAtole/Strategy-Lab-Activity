@@ -2,7 +2,7 @@ public class CastSpell implements AttackStrategy{
 
     @Override
     public String attack(){
-        return " casts a spell.\n";
+        return " casts a spell.";
     }
 
 }

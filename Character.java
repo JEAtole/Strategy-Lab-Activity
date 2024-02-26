@@ -1,21 +1,6 @@
-public class Character{
+public interface Character {
 
-    private String charType;
-    private AttackStrategy attackStrategy;
-    private DefenceStrategy defenceStrategy;
+    void attack();
+    void defend();
 
-    public Character(String charType, AttackStrategy attackStrategy, DefenceStrategy defenceStrategy){
-        this.charType = charType;
-        this.attackStrategy = attackStrategy;
-        this.defenceStrategy = defenceStrategy;
-    }
-
-    public void attack() {
-        System.out.println(charType + attackStrategy.attack());
-    }
-
-
-    public void defend() {
-        System.out.println(charType + defenceStrategy.defend());
-    }
 }

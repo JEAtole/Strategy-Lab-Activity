@@ -1,5 +1,5 @@
 public interface AttackStrategy {
 
-    public String attack();
+    String attack();
 
 }

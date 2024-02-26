@@ -2,15 +2,19 @@ public class GameApp {
 
     public static void main(String[] args) {
         
-        Character char1 = new Character("Archer", new ShootArrow(), new Dodge());
+        Character char1 = new Knight();
         char1.attack();
         char1.defend();
 
-        Character char2 = new Character("Wizard", new CastSpell(), new CreateBarrier());
+        System.out.println();
+
+        Character char2 = new Wizard();
         char2.attack();
         char2.defend();
 
-        Character char3 = new Character("Knight", new SwingSword(), new Shield());
+        System.out.println();
+
+        Character char3 = new Archer();
         char3.attack();
         char3.defend();
 

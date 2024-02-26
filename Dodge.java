@@ -1,8 +1,8 @@
-public class Dodge implements DefenceStrategy{
+public class Dodge implements DefenseStrategy {
 
     @Override
     public String defend(){
-        return " dodges the attack.\n";
+        return " dodges the attack.";
     }
 
 }
